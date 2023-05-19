@@ -4,10 +4,15 @@ import Link from "next/link";
 import Image from "next/image";
 import utilStyles from "../styles/utils.module.css";
 
-const name = "Van Hoan - DevJSProfile";
+const name = "Ha Anh - Blogger";
 export const siteTitle = "Next.js Sample Website";
 
-export default function Layout({ children, home }) {
+interface LayoutProps {
+  children?: any;
+  home?: boolean;
+}
+
+export default function Layout({ children, home }: LayoutProps): JSX.Element {
   return (
     <div className={styles.container}>
       <Head>
@@ -30,7 +35,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/shanks.jpg"
+              src="/images/haanh1.jpg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -43,7 +48,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <Image
                 priority
-                src="/images/profile.jpg"
+                src="/images/haanh1.jpg"
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
