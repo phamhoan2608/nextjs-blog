@@ -5,7 +5,7 @@ import Image from "next/image";
 import utilStyles from "../styles/utils.module.css";
 
 const name = "Ha Anh - Blogger";
-export const siteTitle = "Next.js Sample Website";
+export const siteTitle = "Ha Anh Blogger";
 
 interface LayoutProps {
   children?: any;

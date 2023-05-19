@@ -29,6 +29,18 @@ export default function Post({ postData }): JSX.Element {
     <Layout>
       <Head>
         <title>{postData.title}</title>
+        <meta
+          httpEquiv="Content-Type"
+          content="text/html; charset='utf-8'"
+        ></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        ></meta>
+        <meta name="description" content="Ha Anh Blogger"></meta>
+
+        {/* <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+        <meta name="google" content="notranslate" key="notranslate" /> */}
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>

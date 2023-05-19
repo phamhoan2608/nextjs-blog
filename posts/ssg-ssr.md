@@ -1,5 +1,5 @@
 ---
-title: "When to Use Static Generation v.s. Server-side Rendering"
+title: "Những điểm lưu ý khi sử dụng Saffron"
 date: "2020-01-02"
 ---
 

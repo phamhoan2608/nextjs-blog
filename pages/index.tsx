@@ -28,12 +28,13 @@ export default function Home({ allPostsData }): JSX.Element {
       <section className={utilStyles.headingMd}>
         <p>[Your Self Introduction]</p>
         <p>
-          Hello. I'm <b>Hoan</b>. I'm a software engineer. You contact me on{" "}
+          Hello. I'm <b>Ha Anh Nguyen</b>. I'm a blogger. You contact me on{" "}
           <Link href={"/"}>Instagram</Link>.
         </p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          (This is my blog. A place where I share useful knowledge from my
+          experience and experiences to everyone. Hope you all welcome me. Thank
+          you very much.)
         </p>
       </section>
       {/* Add this <section> tag below the existing <section> tag */}
@@ -51,7 +52,6 @@ export default function Home({ allPostsData }): JSX.Element {
           ))}
         </ul>
       </section>
-      <Link href={"/posts/first-post"}>Blog Next JS</Link>
     </Layout>
   );
 }
